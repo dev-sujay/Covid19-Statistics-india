@@ -1,0 +1,42 @@
+.statesdata-container {
+    height: 410px;
+    background-color: white;
+    margin: 1rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 1rem;
+    overflow: hidden;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.statesdata-container>* {
+    margin-bottom: 15px;
+    color: rgb(41, 46, 63);
+}
+
+.statesdata-container>h2 {
+    font-size: 1.3rem;
+    color: var(--clr-primary);
+    grid-column: 1/-1;
+    text-align: center;
+    height: 50px;
+}
+
+
+
+.confirmed,
+.death,
+.cured,
+.total {
+    font-weight: bold;
+    color: #041a30;
+}

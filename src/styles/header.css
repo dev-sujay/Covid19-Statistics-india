@@ -1,0 +1,10 @@
+header{
+    width: 100%;
+    background-color: #041a30;
+    padding: 1rem;
+}
+header img{
+    width:52px;
+    display: flex;
+    margin: 0 auto;
+}
